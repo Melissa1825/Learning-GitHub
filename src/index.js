@@ -50,7 +50,7 @@ function citySearch(city) {
   axios.get(apiUrl).then(showWeather); 
 }
 
-citySearch('New York')
+citySearch('Toronto')
 
 function displayCity(event) {
   event.preventDefault();
